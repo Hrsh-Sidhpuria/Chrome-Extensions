@@ -1,3 +1,1 @@
-this is a demo repo used to fixed some problems
-test problem 2 
-
+This is a repo in which i am learning a cool chrome extension. And also trying a creative ideas of extension

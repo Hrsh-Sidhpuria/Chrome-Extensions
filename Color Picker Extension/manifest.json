@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Color Picker",
+  "version": "1.0.0",
+  "description": "This is a chrome extension that is used to pick a color of any pixel in particular website.",
+  "background": {
+    "service_worker": "background_colorPicker.js"
+  },
+
+  "permissions": ["activeTab", "scripting"],
+
+  "author": {
+    "email": "harshsidhpuria@gmail.com"
+  },
+  "icons": {
+    "48": "Images/color-picker.png"
+  },
+  "action": {
+    "default_title": "Color Picker",
+    "default_popup": "popup.html"
+  }
+}
