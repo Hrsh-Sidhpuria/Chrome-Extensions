@@ -27,6 +27,10 @@
   cursor: pointer;
   border-radius: 5px;
 }
+#pick-color:hover {
+  background-color: #473745;
+  box-shadow: 6px 6px 2px rgb(18, 9, 20);
+}
 #copied-alert {
   color: black;
   font-size: 12px;
