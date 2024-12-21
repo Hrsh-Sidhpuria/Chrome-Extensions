@@ -8,9 +8,14 @@
     <div class="color-picker">
       <h1>Color Picker</h1>
       <button id="pick-color">Pick a color</button>
-      <p>Drag and drop this above button to to pick a color</p>
+      <p>click "pick a color" to open a eye dropper</p>
       <div class="color-box">
-        <div id="demo-text">demo text</div>
+        <div id="color-section"></div>
+        <div id="hex-text">...</div>
+        <button id="copy-section" title="copy text">
+          <img src="Images/copy-icon.png" alt="copy" width="26px" />
+          <div id="copied-alert"></div>
+        </button>
       </div>
     </div>
     <script src="popup.js"></script>

@@ -1,9 +1,16 @@
+::selection {
+  background-color: none;
+
+  color: yellow;
+}
+
 .color-picker {
   background-color: #ebd6dc;
   padding: 10px;
   width: 300px;
   margin: 20px auto;
   text-align: center;
+  border-radius: 10px;
 }
 
 #pick-color {
@@ -20,13 +27,26 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.h1 {
-  size: 30px;
+#copied-alert {
+  color: black;
+  font-size: 12px;
+}
+
+#color-section {
+  background-color: yellowgreen;
+  width: 50px;
+  height: 14px;
+  border: 3px solid black;
+  padding: 12px;
+  margin: 1px;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 .color-box {
   background-color: lightgray;
   border: 2px solid black;
+  border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
   display: flex;
@@ -34,6 +54,11 @@
   align-items: center;
 }
 
-#demo-text {
-  font-size: 18px;
+#copy-section {
+  border: none;
+  background-color: lightgray;
+}
+
+#hex-text {
+  font-size: 25px;
 }
